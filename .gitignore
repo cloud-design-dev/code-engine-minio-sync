@@ -1,0 +1,2 @@
+# Don't include local build and test file
+build.sh
