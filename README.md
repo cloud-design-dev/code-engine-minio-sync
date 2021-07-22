@@ -96,7 +96,7 @@ $ ibmcloud iam service-policy-create SERVICE_ID --roles Writer --service-name cl
 > - `ICOS_SERVICE_INSTANCE_ID`: The GUID of the Cloud Object Storage instance on the source account. You can retrieve this with the command: `ibmcloud resource service-instance <name of icos instance>`
 > - `DESTINATION_BUCKET_NAME`: The name of the source account bucket that we will sync with the destination bucket. 
 
-**Generate HMAC credentials tied to our service ID: **
+**Generate HMAC credentials tied to our service ID:**
 
 We'll follow the same procedure as last time to generate the HMAC credentials, but this time on the destination account.
 
