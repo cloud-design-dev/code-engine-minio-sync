@@ -58,7 +58,7 @@ $ ibmcloud resource service-key-create SERVICE_ID_KEY_NAME Reader --instance-id 
 *Inputs:*
 > - `SERVICE_ID`: The ID of the Service ID created in the previous step. 
 > - `ICOS_SERVICE_INSTANCE_ID`: The GUID of the Cloud Object Storage instance on the source account.
-> - `SERVICE_ID_KEY_NAME`:
+> - `SERVICE_ID_KEY_NAME`: The name of the Service ID credentials to create.
 
 *Important Outputs:*
 Take note of the output from the Serice Key output. These values will be used when creating our Code Engine Job.
